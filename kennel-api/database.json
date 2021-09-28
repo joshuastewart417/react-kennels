@@ -1,12 +1,12 @@
 {
   "animals": [
     {
-      "id": 2,
+      "id": 1,
       "name": "Decker",
       "breed": "German Shepherd"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Esme",
       "breed": "Pitbull"
     }
@@ -18,12 +18,12 @@
       "address": "101 Jurassic Ave"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Isaac Asimov",
       "address": "203 Android Pl"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Stephen King",
       "address": "19 Rose Drive"
     }
