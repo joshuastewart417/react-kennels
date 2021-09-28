@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from "react";
 //import the components we will need
 import { CustomerCard } from "./CustomerCard";
-import {
-  getAllCustomers,
-  getCustomerById,
-  deleteCustomer,
-} from "../../modules/CustomerManager";
+import { getAllCustomers, deleteCustomer } from "../../modules/CustomerManager";
 
 export const CustomerList = () => {
   // The initial state is an empty array
