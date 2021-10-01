@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const PropsAndState = ({ yourName }) => {
+export const PropsAndState = ({ yourName, date }) => {
   let [countClicks, setCountClicks] = useState(0);
 
   const handleClick = () => {
@@ -15,6 +15,7 @@ export const PropsAndState = ({ yourName }) => {
       <h3>Welcome, {yourName} </h3>
       <p>{countClicks}</p>
       <button onClick={handleClick}>Click Me</button>
+      <div>Today's Date: {date}</div>
     </>
   );
 };

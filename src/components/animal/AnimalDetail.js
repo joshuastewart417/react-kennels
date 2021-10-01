@@ -4,7 +4,7 @@ import "./AnimalDetail.css";
 import { useParams, useHistory } from "react-router-dom";
 
 export const AnimalDetail = () => {
-  const [animal, setAnimal] = useState({ name: "", breed: "" });
+  const [animal, setAnimal] = useState({ name: "", breed: "", imgURL: "" });
 
   const { animalId } = useParams();
   const history = useHistory();
@@ -16,6 +16,7 @@ export const AnimalDetail = () => {
       setAnimal({
         name: animal.name,
         breed: animal.breed,
+        imgURL: animal.imgURL,
       });
     });
   }, [animalId]);
@@ -23,6 +24,9 @@ export const AnimalDetail = () => {
   return (
     <section className="animal">
       <h3 className="animal__name">{animal.name}</h3>
+      <picture>
+        <img src={animal.imgURL} alt="dog pic" />
+      </picture>
       <div className="animal__breed">{animal.breed}</div>
       {/* What's up with the question mark???? See below.*/}
       <div className="animal__location">Location: {animal.location?.name}</div>

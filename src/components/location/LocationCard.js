@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Location.css";
 
 export const LocationCard = ({ location, handleDeleteLocation }) => {
@@ -15,6 +16,9 @@ export const LocationCard = ({ location, handleDeleteLocation }) => {
         <button type="button" onClick={() => handleDeleteLocation(location.id)}>
           Close Location
         </button>
+        <Link to={`/locations/${location.id}`}>
+          <button>Details</button>
+        </Link>
       </div>
     </div>
   );
