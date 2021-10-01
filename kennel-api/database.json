@@ -3,12 +3,14 @@
     {
       "id": 1,
       "name": "Decker",
-      "breed": "German Shepherd"
+      "breed": "German Shepherd",
+      "imgURL": "https://2.bp.blogspot.com/-u28lZcXAU9o/Vac3S9HkkZI/AAAAAAAAjZI/obYgPZrtvQM/s1600/german%2Bshepherd%2Bhd%2Bwallpapers%2B7.jpg"
     },
     {
       "id": 2,
       "name": "Esme",
-      "breed": "Pitbull"
+      "breed": "Pitbull",
+      "imgURL": "https://www.alphapaw.com/wp-content/uploads/2021/01/65216239_438364413417055_6761610141087820951_n-1-1.jpg"
     }
   ],
   "customers": [
