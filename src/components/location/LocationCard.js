@@ -6,9 +6,6 @@ export const LocationCard = ({ location, handleDeleteLocation }) => {
   return (
     <div className="card">
       <div className="card-content">
-        {/* <picture>
-          <img src={require("./dog.svg")} alt="My Dog" />
-        </picture> */}
         <h3>
           Name: <span className="card-locationname">{location.name}</span>
         </h3>
